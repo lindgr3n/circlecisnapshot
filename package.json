@@ -4,6 +4,7 @@
   "description": "Testing Jest snapshot with CircleCi",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -d",
     "test": "jest"
   },
   "repository": {
