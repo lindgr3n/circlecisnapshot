@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  override:
+    - npm install --dev
+deployment:
+  master:
+    branch: master
+    commands:
+      - npm run build
