@@ -1,7 +1,10 @@
 import React from 'react'
+import Second from '../Second'
+
 const Test = () => (
     <div>
-        test
+        Test
+        <Second />
     </div>
 )
 
