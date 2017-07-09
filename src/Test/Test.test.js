@@ -11,6 +11,6 @@ describe('<Test>', () => {
 
     it('Should render with snapshot', () => {
         const output = shallow(<Test />)
-        expect(Test).toMatchSnapshot()
+        expect(output).toMatchSnapshot()
     })
 })
